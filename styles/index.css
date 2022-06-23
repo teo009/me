@@ -1,0 +1,36 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Comfortaa&display=swap'
+);
+@import url(
+    'https://fonts.googleapis.com/css2?family=Acme&family=Comfortaa&display=swap'
+);
+* {
+    font-family: Comfortaa;
+}
+* header {
+    text-align: center;
+    padding-top: 3%;
+    padding-right: 20%;
+    padding-bottom: 1%;
+    padding-left: 20%;
+}
+* main{
+    padding-top: 5%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+    padding-left: 30%;
+}
+* main > article > p {
+    text-align: center;
+}
+* footer {
+    text-align: center;
+    padding-top: 1%;
+    padding-right: 20%;
+    padding-bottom: 1%;
+    padding-left: 20%;
+}
+* footer > section > div > p {
+    display: inline-flex;
+    padding: 10px;
+}
