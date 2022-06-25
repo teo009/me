@@ -33,4 +33,11 @@
 * footer > section > div > a {
     display: inline-flex;
     padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+* footer > section > div > a > p:hover {
+    color: green;
+    text-transform: uppercase;
 }
