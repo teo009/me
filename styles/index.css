@@ -9,7 +9,7 @@
 }
 * header {
     text-align: center;
-    padding-top: 3%;
+    padding-top: 2%;
     padding-right: 20%;
     padding-bottom: 1%;
     padding-left: 20%;
@@ -60,9 +60,9 @@
     opacity: 1;
 }
 * main{
-    padding-top: 5%;
+    padding-top: 3%;
     padding-right: 30%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     padding-left: 30%;
 }
 * main > article > p {
@@ -72,17 +72,18 @@
     text-align: center;
     padding-top: 1%;
     padding-right: 20%;
-    padding-bottom: 1%;
     padding-left: 20%;
 }
-* footer > section > div > a {
+* footer > section > div > a, 
+  footer > section > p > a {
     display: inline-flex;
     padding: 10px;
     text-decoration: none;
     color: black;
 }
 
-* footer > section > div > a > p:hover {
+* footer > section > div > a > p:hover,
+  footer > section > p > a:hover {
     color: green;
     text-transform: uppercase;
 }
