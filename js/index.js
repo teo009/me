@@ -1,0 +1,1 @@
+alert('Hello world, this is a simple js test, please click on accept to continue')
