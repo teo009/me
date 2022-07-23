@@ -18,7 +18,7 @@
     text-align: center;
     align-items: center;
 }
-* nav > a {
+* nav > div {
     display: inline-block;
     font-size: 35px;
     line-height: 30px;
@@ -26,8 +26,9 @@
     position: relative;
     text-decoration: none;
     z-index: 1;
+    cursor: pointer;
 }
-* nav > a::after {
+* nav > div::after {
     pointer-events: none;
     position: absolute;
     width: 100%;
