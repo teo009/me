@@ -3,17 +3,19 @@ let text = HTMLElement
 window.onload = function(){
     text = document.getElementById('test')
     text.innerText = `Ingeniero en Sistemas, especializado en el desarrollo web
-    Full Stack; usando diversas tecnologías tales como HTML, CSS, JavaScript, 
-    Vue.js, React.js, Bootstrap y Tailwindcss para frontend;
-    y PHP (Laravel), Python (Django), Node.js (Next.js) para backend.`
+    Full Stack; usando diversas tecnologías tales como HTML, 
+    CSS, JavaScript, Vue.js, React.js, Bootstrap y Tailwindcss 
+    para frontend; y PHP (Laravel), Python (Django), Node.js (Next.js) 
+    para backend.`
 }
 
 function spanish(){
     text = document.getElementById('test')
     text.innerText = `Ingeniero en Sistemas, especializado en el desarrollo web
-    Full Stack; usando diversas tecnologías tales como HTML, CSS, JavaScript, 
-    Vue.js, React.js, Bootstrap y Tailwindcss para frontend;
-    y PHP (Laravel), Python (Django), Node.js (Next.js) para backend.`
+    Full Stack; usando diversas tecnologías tales como HTML, 
+    CSS, JavaScript, Vue.js, React.js, Bootstrap y Tailwindcss 
+    para frontend; y PHP (Laravel), Python (Django), Node.js (Next.js) 
+    para backend.`
 }
 
 function english(){
