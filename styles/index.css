@@ -83,8 +83,8 @@
     color: black;
 }
 
-* footer > section > div > a > p:hover,
-  footer > section > p > a:hover {
+.git:hover,
+* footer > section > div > a > p:hover{
     color: green;
     text-transform: uppercase;
 }
