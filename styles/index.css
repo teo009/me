@@ -7,6 +7,21 @@
 * {
     font-family: Comfortaa;
 }
+* body{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+}
+* body > div {
+    background-color: aquamarine;
+    border-style:solid;
+}
 * header {
     text-align: center;
     padding-top: 2%;
