@@ -78,6 +78,8 @@
     padding-right: 20%;
     padding-left: 20%;
 }
+
+/*
 * footer > section > div > a {
     background-color: rgba(0, 128, 0, 0.301);
     border-radius: 8px;
@@ -90,6 +92,8 @@
     width: 50px;
     height: 50px;
 }
+*/
+
 * footer > section > div > a, 
   footer > section > p > a {
     display: inline-flex;
