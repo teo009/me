@@ -79,7 +79,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(33, 61, 118);
     width: 88%;
 }
 .mainSection > img {
@@ -87,7 +86,6 @@ a {
     filter: grayscale(100%);
 }
 .mainSection > article {
-    /*border: 1px solid red;*/
     width: 50%;
     height: 70vh;
     display: flex;
@@ -104,6 +102,21 @@ a {
     padding-top: 30px;
     font-style: italic;
 }
+.scrollIcon {
+    position: absolute;
+    bottom: 0%;
+    opacity: 60%;
+}
+
+.tecSection {
+    border: 1px solid coral;
+    width: 88%;
+    height: 150vh;
+}
+
+
+
+
 
 * footer {
     text-align: center;
