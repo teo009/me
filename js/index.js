@@ -4,7 +4,7 @@ let text = HTMLElement
 let follow = HTMLElement
 let repo = HTMLElement
 
-window.onload = function(){
+/*window.onload = function(){
     //hi = document.getElementById('hi')
     //myName = document.getElementById('name')
     text = document.getElementById('test')
@@ -19,7 +19,7 @@ window.onload = function(){
     para backend.`
     follow.innerText = `Sigueme en mis redes sociales:`
     repo.innerText = `Encuentra este proyecto y muchos más en mi`
-}
+}*/
 
 function spanish(){
     //hi = document.getElementById('hi')

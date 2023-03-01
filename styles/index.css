@@ -38,8 +38,8 @@ header > :nth-child(2) {
     align-items: center;
 }
 header > :nth-child(2) > button {
-    width: 160px;
-    height: 52px;
+    width: 142px;
+    height: 42px;
     border-radius: 200px;
     border: none;
     background-color: rgba(255, 255, 255, 0.683);
@@ -75,18 +75,36 @@ a {
     color: rgba(255, 255, 255, 0.683);
 }
 
-section {
-    width: 88%;
-    height: 80vh;
+.mainSection {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgb(33, 61, 118);
+    width: 88%;
+}
+.mainSection > img {
+    width: 660px;
+    filter: grayscale(100%);
+}
+.mainSection > article {
+    /*border: 1px solid red;*/
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.mainSection > article > h1 {
+    font-size: 70px;
+    text-align: right;
+}
+.mainSection > article > p {
+    font-size: 32px;
+    padding-top: 30px;
+    font-style: italic;
+}
 
-    /*border: 2px solid yellow;*/
-}
-* section > article > p {
-    text-align: center;
-}
 * footer {
     text-align: center;
     padding-top: 1%;
