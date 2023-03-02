@@ -8,27 +8,57 @@
     <title>Teodoro Obando</title>
     <link rel="stylesheet" href="/me/styles/index.css">
     <script src="./js/index.js"></script>
+    <script src="./js/scroll.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 <body>
     <header>
-        <h1 id="hi"></h1>
-        <h3 id="name"></h3>
+        <div>
+            <h1>Teodoro Obando</h1>
+            <h3>Frontend Dev</h3>
+        </div>
+        <div>
+            <button>Contact me</button>
+        </div>
     </header>
     <nav>
-        <div onclick="spanish()" class="effect">🇪🇸(es)</div>
-        <div onclick="english()" class="effect">🇺🇸(en)</div>
+        <ul>
+            <li><a href="">Technologies</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Lorem</a></li>
+            <li>|</li>
+            <div onclick="spanish()" class="effect">🇪(es)</div>
+            <div onclick="english()" class="effect">🇺(en)</div>
+        </ul>
     </nav>
-    <main>
+
+    <section class="mainSection">
+        <img src="./images/me.png" alt="Teodoro Obando" class="default">
+        <article class="default">
+            <h1><strong>I Build</strong><br>Scalable <strong>web-sites</strong></h1>
+            <p>
+                I've been working as a front-end developer since 2021, 
+                loving to use React (js/native) and writting CSS to get 
+                really nices user interfaces.
+            </p>
+        </article>
+        <a href="#tecSection" class="scrollIcon">
+            <lottie-player 
+                src="https://assets1.lottiefiles.com/packages/lf20_o87tttfh.json"  
+                background="transparent"  speed="0.5"  style="width: 90px; height: 70px;"  
+                loop autoplay
+            ></lottie-player>
+        </a>
+    </section>
+    <section class="tecSection" id="tecSection">
+        <p class="reveal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis doloribus minima magnam laborum assumenda necessitatibus quo ut perferendis! Minima voluptatum aliquid aut, corporis deleniti explicabo dolor alias incidunt similique.</p>
+    </section>
+    <!--
         <lottie-player 
             src="https://assets6.lottiefiles.com/packages/lf20_8efd9doz.json" background="transparent"  
             speed="1" style="width: 300px; height: 300px;" loop autoplay
         >
         </lottie-player>
-        <article>
-            <p id="test"></p>
-        </article>
-    </main>
     <footer>
         <section>
             <h4 id="followme"></h4>
@@ -68,5 +98,6 @@
             </div>
         </section>
     </footer>
+    -->
 </body>
 </html>

@@ -4,9 +4,9 @@ let text = HTMLElement
 let follow = HTMLElement
 let repo = HTMLElement
 
-window.onload = function(){
-    hi = document.getElementById('hi')
-    myName = document.getElementById('name')
+/*window.onload = function(){
+    //hi = document.getElementById('hi')
+    //myName = document.getElementById('name')
     text = document.getElementById('test')
     follow = document.getElementById('followme')
     repo = document.getElementById('repo')
@@ -19,11 +19,11 @@ window.onload = function(){
     para backend.`
     follow.innerText = `Sigueme en mis redes sociales:`
     repo.innerText = `Encuentra este proyecto y muchos más en mi`
-}
+}*/
 
 function spanish(){
-    hi = document.getElementById('hi')
-    myName = document.getElementById('name')
+    //hi = document.getElementById('hi')
+    //myName = document.getElementById('name')
     text = document.getElementById('test')
     follow = document.getElementById('followme')
     repo = document.getElementById('repo')
@@ -39,8 +39,8 @@ function spanish(){
 }
 
 function english(){
-    hi = document.getElementById('hi')
-    myName = document.getElementById('name')
+    //hi = document.getElementById('hi')
+    //myName = document.getElementById('name')
     text = document.getElementById('test')
     follow = document.getElementById('followme')
     repo = document.getElementById('repo')
