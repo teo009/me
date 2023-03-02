@@ -75,6 +75,18 @@ a {
     color: rgba(255, 255, 255, 0.683);
 }
 
+.default {
+    animation: 1.2s ease 0s 1 onload;
+}
+.reveal {
+    opacity: 0;
+    transform: translateY(20%);
+    transition: all 1.2s ease;
+}
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
 .mainSection {
     display: flex;
     justify-content: center;
@@ -82,7 +94,7 @@ a {
     width: 88%;
 }
 .mainSection > img {
-    width: 660px;
+    width: 500px;
     filter: grayscale(100%);
 }
 .mainSection > article {
@@ -94,17 +106,19 @@ a {
     padding: 40px;
 }
 .mainSection > article > h1 {
-    font-size: 70px;
+    font-size: 60px;
     text-align: right;
 }
 .mainSection > article > p {
-    font-size: 32px;
+    font-size: 28px;
     padding-top: 30px;
     font-style: italic;
+    text-align: justify;
 }
 .scrollIcon {
     position: absolute;
     bottom: 0%;
+    right: 9%;
     opacity: 60%;
 }
 
@@ -165,4 +179,13 @@ a {
 * footer > section > div > a > p:hover{
     color: green;
     text-transform: uppercase;
+}
+
+@keyframes onload {
+    0% {
+        transform: translateY(20%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
