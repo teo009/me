@@ -37,7 +37,7 @@ header > :nth-child(2) {
     justify-content: center;
     align-items: center;
 }
-header > :nth-child(2) > button {
+header > :nth-child(2) > a {
     width: 142px;
     height: 42px;
     border-radius: 200px;
@@ -46,6 +46,15 @@ header > :nth-child(2) > button {
     color: #142d47c5;
     font-size: 1.17em;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header > :nth-child(2) > a:hover {
+    background-color: #495b70;
+    color: rgba(255, 255, 255, 0.683);
+    border: 2px solid rgba(255, 255, 255, 0.683);
+    transition: all 0.2s ease-out;
 }
 
 nav {
@@ -213,48 +222,54 @@ a {
     background-image: linear-gradient(90deg, #fb00ff00 10%, #090a0c 100%);
 }
 
-
-* footer {
+footer {
+    width: 100%;
     text-align: center;
     padding-top: 1%;
-    padding-right: 20%;
-    padding-left: 20%;
-}
-* footer > section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    margin-top: 10%;
+    background-color: #142d4700;;
+    background-image: linear-gradient(0deg, #142d47c5 20%, #97dae100 50%);
 
+}
 .social-networks-container {
     display: flex;
     justify-content: space-evenly;
 }
-
-* footer > section > div > a, 
-  footer > section > p > a {
+footer > h3 {
+    margin-bottom: 20px;
+}
+footer > :nth-child(2) > a {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 100px;
     height: 120px;
-
     text-decoration: none;
-    color: black;
+    opacity: 60%;
 }
-
-.social-networks-container > a > lottie-player {
+footer > :nth-child(2) > a:hover {
+    text-decoration: underline;
 }
-
 .git-container {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.git-container > span {
+    font-size: 1.17em;
+}
+.git-container > a {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.git-container > a:hover {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 @keyframes onload {
