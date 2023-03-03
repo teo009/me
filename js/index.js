@@ -19,7 +19,7 @@ let repo = HTMLElement
     para backend.`
     follow.innerText = `Sigueme en mis redes sociales:`
     repo.innerText = `Encuentra este proyecto y muchos más en mi`
-}*/
+}
 
 function spanish(){
     //hi = document.getElementById('hi')
@@ -53,4 +53,9 @@ function english(){
     backend.`
     follow.innerText = `Follow me on my social networks:`
     repo.innerText = `Get this project and many more on my`
+}
+*/
+
+const message = (type) => {
+    alert(`Oopss :( we're still working on this ${type}`)
 }

@@ -272,6 +272,64 @@ footer > :nth-child(2) > a:hover {
     font-weight: bold;
 }
 
+@media screen and (max-width: 800px) {
+    header > :nth-child(1) > h3 {
+        text-align: left;
+        font-size: 15px;
+    }
+    header > :nth-child(1) > h1 {
+        font-size: 26px;
+    }
+    nav {
+        height: 40px;
+        position: relative;
+    }
+    ul > :nth-child(3) {
+        display: none;
+    }
+    ul > li > a,
+    ul > div {
+        font-size: 15px;
+    }
+    .mainSection {
+        position: relative;
+    }
+    .scrollIcon {
+        top: 8px;
+        right: -24px;
+    }
+    .mainSection {
+        flex-direction: column;
+    }
+    .mainSection > img {
+        width: 380px;
+        float: right;
+    }
+    .mainSection > article {
+        width: 90%;
+    }
+    .leftWrapper {
+        height: 400px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .leftWrapper > div,
+    .leftWrapper > p {
+        width: 80%;
+        margin-top: 30px;
+    }
+    .rightWrapper {
+        height: 400px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .rightWrapper > div,
+    .rightWrapper > p {
+        width: 80%;
+        margin-top: 30px;
+    }
+}
+
 @keyframes onload {
     0% {
         transform: translateY(20%);
