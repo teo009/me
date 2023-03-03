@@ -80,7 +80,7 @@ a {
 }
 .reveal {
     opacity: 0;
-    transform: translateY(20%);
+    transform: translateY(24%);
     transition: all 1.2s ease;
 }
 .reveal.active {
@@ -255,12 +255,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.git:hover,
-* footer > section > div > a > p:hover{
-    color: green;
-    text-transform: uppercase;
 }
 
 @keyframes onload {
