@@ -8,6 +8,7 @@
 * {
     font-family: Comfortaa;
     margin: 0;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #142d47c5;
