@@ -2,6 +2,7 @@ window.addEventListener('scroll', reveal);
 function reveal(){
     let reveals = document.querySelectorAll('.reveal');
     //let hide = document.querySelectorAll('.scrollText');
+    console.log(reveals.length)
 
     for(var i = 0; i < reveals.length; i++) {
         var windowheight = window.innerHeight;
